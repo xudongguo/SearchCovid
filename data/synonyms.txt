@@ -1,0 +1,58 @@
+# The ASF licenses this file to You under the Apache License, Version 2.0
+# (the "License"); you may not use this file except in compliance with
+# the License.  You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+#-----------------------------------------------------------------------
+#some test synonym mappings unlikely to appear in real input text
+aaafoo => aaabar
+bbbfoo => bbbfoo bbbbar
+cccfoo => cccbar cccbaz
+fooaaa,baraaa,bazaaa
+
+
+
+# Some synonym groups specific to this example
+GB,gib,gigabyte,gigabytes
+MB,mib,megabyte,megabytes
+Television, Televisions, TV, TVs
+coronavirus, WuhanVirus,  SARS-CoV-2, ChinaVirus, Chinesevirus, chinavirus
+COVID19, COVID2019,COVID2020,COVID, COVID20,, WuhanPneumonia, COVID-19, COVID-2020, COVID-2019, COVID-20, ChinaPneumonia,
+shelter in place, stay at home, stay-at-home
+nyc,new york city,ny,new york
+na,north america
+d.c DC, washington dc, washington d.c
+CA,california
+LA,los angeles
+sea,south east asia
+sg,Singapore
+cn,china
+hk,hongkong, hong kong
+EU, E.U, european union
+WA,washington
+Trump, POTU, Donald Trump
+Italy, Italia
+Spain, Espana, España
+u.s, u.s.a, the us, usa, America, the states, united states of america
+u.k, uk, the u.k, the uk, united kingdom
+
+
+
+
+
+#notice we use "gib" instead of "GiB" so any WordDelimiterGraphFilter coming
+#after us won't split it into two words.
+
+# Synonym mappings can be used for spelling correction too
+pixima => pixma
+peumonia => pneumonia
+Koronavirus => Coronavirus
+
+

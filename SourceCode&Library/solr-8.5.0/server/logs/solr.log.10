@@ -1,0 +1,364 @@
+2020-04-22 08:16:43.155 INFO  (main) [   ] o.e.j.u.log Logging initialized @4021ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-04-22 08:16:43.731 INFO  (main) [   ] o.e.j.s.Server jetty-9.4.24.v20191120; built: 2019-11-20T21:37:49.771Z; git: 363d5f2df3a8a28de40604320230664b9c793c16; jvm 14+36-1461
+2020-04-22 08:16:43.809 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///V:/Solr+Lucene/Solr/solr-8.5.0/solr-8.5.0/server/contexts/] at interval 0
+2020-04-22 08:16:44.469 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2020-04-22 08:16:44.481 INFO  (main) [   ] o.e.j.s.session DefaultSessionIdManager workerName=node0
+2020-04-22 08:16:44.482 INFO  (main) [   ] o.e.j.s.session No SessionScavenger set, using defaults
+2020-04-22 08:16:44.484 INFO  (main) [   ] o.e.j.s.session node0 Scavenging every 660000ms
+2020-04-22 08:16:44.770 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+2020-04-22 08:16:44.796 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 8.5.0
+2020-04-22 08:16:44.797 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2020-04-22 08:16:44.797 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: V:\Solr+Lucene\Solr\solr-8.5.0\solr-8.5.0
+2020-04-22 08:16:44.797 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2020-04-22T08:16:44.797601500Z
+2020-04-22 08:16:44.912 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: V:\Solr+Lucene\Solr\solr-8.5.0\solr-8.5.0\server\solr
+2020-04-22 08:16:44.937 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from V:\Solr+Lucene\Solr\solr-8.5.0\solr-8.5.0\server\solr\solr.xml
+2020-04-22 08:16:45.073 INFO  (main) [   ] o.a.s.c.SolrXmlConfig MBean server found: com.sun.jmx.mbeanserver.JmxMBeanServer@d86a6f, but no JMX reporters were configured - adding default JMX reporter.
+2020-04-22 08:16:45.951 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory Host whitelist initialized: WhitelistHostChecker [whitelistHosts=null, whitelistHostCheckingEnabled=true]
+2020-04-22 08:16:46.222 WARN  (main) [   ] o.e.j.u.s.S.config Trusting all certificates configured for Client@6c1832aa[provider=null,keyStore=null,trustStore=null]
+2020-04-22 08:16:46.222 WARN  (main) [   ] o.e.j.u.s.S.config No Client EndPointIdentificationAlgorithm configured for Client@6c1832aa[provider=null,keyStore=null,trustStore=null]
+2020-04-22 08:16:46.373 WARN  (main) [   ] o.e.j.u.s.S.config Trusting all certificates configured for Client@2cfa2c4f[provider=null,keyStore=null,trustStore=null]
+2020-04-22 08:16:46.374 WARN  (main) [   ] o.e.j.u.s.S.config No Client EndPointIdentificationAlgorithm configured for Client@2cfa2c4f[provider=null,keyStore=null,trustStore=null]
+2020-04-22 08:16:46.397 WARN  (main) [   ] o.a.s.c.CoreContainer Not all security plugins configured!  authentication=disabled authorization=disabled.  Solr is only as secure as you make it. Consider configuring authentication/authorization before exposing Solr to users internal or external.  See https://s.apache.org/solrsecurity for more info
+2020-04-22 08:16:46.607 INFO  (main) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
+2020-04-22 08:16:46.624 INFO  (main) [   ] o.a.s.h.a.MetricsHistoryHandler No .system collection, keeping metrics history in memory.
+2020-04-22 08:16:46.729 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.node' (registry 'solr.node') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@d86a6f
+2020-04-22 08:16:46.729 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jvm' (registry 'solr.jvm') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@d86a6f
+2020-04-22 08:16:46.734 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jetty' (registry 'solr.jetty') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@d86a6f
+2020-04-22 08:16:46.871 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 1 core definitions underneath V:\Solr+Lucene\Solr\solr-8.5.0\solr-8.5.0\server\solr
+2020-04-22 08:16:46.872 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [SearchCovid]
+2020-04-22 08:16:47.012 INFO  (coreLoadExecutor-9-thread-1) [   x:SearchCovid] o.a.s.c.SolrResourceLoader [SearchCovid] Added 7 libs to classloader, from paths: [/V:/Solr+Lucene/Solr/solr-8.5.0/solr-8.5.0/contrib/clustering/lib, /V:/Solr+Lucene/Solr/solr-8.5.0/solr-8.5.0/dist]
+2020-04-22 08:16:47.292 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@1f2f9244{/solr,file:///V:/Solr+Lucene/Solr/solr-8.5.0/solr-8.5.0/server/solr-webapp/webapp/,AVAILABLE}{V:\Solr+Lucene\Solr\solr-8.5.0\solr-8.5.0\server/solr-webapp/webapp}
+2020-04-22 08:16:47.343 INFO  (main) [   ] o.e.j.s.AbstractConnector Started ServerConnector@64b73e7a{HTTP/1.1,[http/1.1, h2c]}{0.0.0.0:8983}
+2020-04-22 08:16:47.343 INFO  (main) [   ] o.e.j.s.Server Started @8211ms
+2020-04-22 08:16:47.840 INFO  (coreLoadExecutor-9-thread-1) [   x:SearchCovid] o.a.s.c.SolrConfig Using Lucene MatchVersion: 8.5.0
+2020-04-22 08:16:47.884 INFO  (qtp1305935114-25) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=215
+2020-04-22 08:16:48.152 INFO  (coreLoadExecutor-9-thread-1) [   x:SearchCovid] o.a.s.s.IndexSchema [SearchCovid] Schema name=default-config
+2020-04-22 08:16:49.169 INFO  (coreLoadExecutor-9-thread-1) [   x:SearchCovid] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2020-04-22 08:16:49.219 INFO  (coreLoadExecutor-9-thread-1) [   x:SearchCovid] o.a.s.c.CoreContainer Creating SolrCore 'SearchCovid' using configuration from instancedir V:\Solr+Lucene\Solr\solr-8.5.0\solr-8.5.0\server\solr\SearchCovid, trusted=true
+2020-04-22 08:16:49.237 INFO  (coreLoadExecutor-9-thread-1) [   x:SearchCovid] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.SearchCovid' (registry 'solr.core.SearchCovid') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@d86a6f
+2020-04-22 08:16:49.281 INFO  (coreLoadExecutor-9-thread-1) [   x:SearchCovid] o.a.s.c.SolrCore [[SearchCovid] ] Opening new SolrCore at [V:\Solr+Lucene\Solr\solr-8.5.0\solr-8.5.0\server\solr\SearchCovid], dataDir=[V:\Solr+Lucene\Solr\solr-8.5.0\solr-8.5.0\server\solr\SearchCovid\data\]
+2020-04-22 08:16:50.052 INFO  (coreLoadExecutor-9-thread-1) [   x:SearchCovid] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2020-04-22 08:16:50.053 INFO  (coreLoadExecutor-9-thread-1) [   x:SearchCovid] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2020-04-22 08:16:50.428 INFO  (coreLoadExecutor-9-thread-1) [   x:SearchCovid] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2020-04-22 08:16:50.428 INFO  (coreLoadExecutor-9-thread-1) [   x:SearchCovid] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2020-04-22 08:16:51.360 INFO  (coreLoadExecutor-9-thread-1) [   x:SearchCovid] o.a.s.s.SolrIndexSearcher Opening [Searcher@369d0269[SearchCovid] main]
+2020-04-22 08:16:51.422 INFO  (coreLoadExecutor-9-thread-1) [   x:SearchCovid] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: V:\Solr+Lucene\Solr\solr-8.5.0\solr-8.5.0\server\solr\SearchCovid\conf
+2020-04-22 08:16:51.494 INFO  (coreLoadExecutor-9-thread-1) [   x:SearchCovid] o.a.s.h.c.ClusteringComponent Initializing Clustering Engines
+2020-04-22 08:16:51.771 INFO  (coreLoadExecutor-9-thread-1) [   x:SearchCovid] o.a.s.h.c.c.CarrotClusteringEngine Initializing Clustering Engine 'lingo'
+2020-04-22 08:16:51.792 INFO  (coreLoadExecutor-9-thread-1) [   x:SearchCovid] o.a.s.h.c.c.CarrotClusteringEngine Initializing Clustering Engine 'stc'
+2020-04-22 08:16:51.793 INFO  (coreLoadExecutor-9-thread-1) [   x:SearchCovid] o.a.s.h.c.ClusteringComponent Default engine for search results clustering: lingo [CarrotClusteringEngine]
+2020-04-22 08:16:51.793 WARN  (coreLoadExecutor-9-thread-1) [   x:SearchCovid] o.a.s.h.c.ClusteringComponent No default engine for document clustering.
+2020-04-22 08:16:51.793 INFO  (coreLoadExecutor-9-thread-1) [   x:SearchCovid] o.a.s.h.c.ClusteringComponent Finished Initializing Clustering Engines
+2020-04-22 08:16:51.793 INFO  (coreLoadExecutor-9-thread-1) [   x:SearchCovid] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2020-04-22 08:16:51.802 INFO  (coreLoadExecutor-9-thread-1) [   x:SearchCovid] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2020-04-22 08:16:51.813 INFO  (coreLoadExecutor-9-thread-1) [   x:SearchCovid] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2020-04-22 08:16:51.912 INFO  (searcherExecutor-10-thread-1-processing-x:SearchCovid) [   x:SearchCovid] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@369d0269[SearchCovid] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_3(8.5.0):C11199:[diagnostics={os=Windows 10, java.version=14, os.arch=amd64, java.runtime.version=14+36-1461, source=merge, os.version=10.0, java.vendor=Oracle Corporation, java.vm.version=14+36-1461, lucene.version=8.5.0, mergeMaxNumSegments=-1, mergeFactor=2, timestamp=1587457195012}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2020-04-22 08:16:51.912 INFO  (searcherExecutor-10-thread-1-processing-x:SearchCovid) [   x:SearchCovid] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2020-04-22 08:16:51.912 INFO  (searcherExecutor-10-thread-1-processing-x:SearchCovid) [   x:SearchCovid] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2020-04-22 08:16:51.919 INFO  (searcherExecutor-10-thread-1-processing-x:SearchCovid) [   x:SearchCovid] o.a.s.c.SolrCore [SearchCovid] Registered new searcher Searcher@369d0269[SearchCovid] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_3(8.5.0):C11199:[diagnostics={os=Windows 10, java.version=14, os.arch=amd64, java.runtime.version=14+36-1461, source=merge, os.version=10.0, java.vendor=Oracle Corporation, java.vm.version=14+36-1461, lucene.version=8.5.0, mergeMaxNumSegments=-1, mergeFactor=2, timestamp=1587457195012}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2020-04-22 08:16:58.246 INFO  (qtp1305935114-26) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1587543418152} status=0 QTime=1
+2020-04-22 08:16:58.254 INFO  (qtp1305935114-42) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/config params={wt=json&_=1587543418224} status=0 QTime=3
+2020-04-22 08:16:58.291 INFO  (qtp1305935114-18) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1587543418223} status=0 QTime=41
+2020-04-22 08:16:58.310 INFO  (qtp1305935114-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1587543418153} status=0 QTime=63
+2020-04-22 08:16:58.562 INFO  (qtp1305935114-19) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1587543418223} status=0 QTime=149
+2020-04-22 08:17:20.163 INFO  (qtp1305935114-27) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} hits=11199 status=0 QTime=103
+2020-04-22 08:17:20.163 INFO  (qtp1305935114-27) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} status=0 QTime=103
+2020-04-22 08:17:20.324 INFO  (qtp1305935114-25) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/select params={q=full_text:coronavirus+user.screen_name:coronavirus&q=q%3Dfull_text%253Acoronavirus%2520user.screen_name%253Acoronavirus%26start%3D0%26rows%3D10&start=0&fq=&fq=&fq=&rows=10&params=%26fq%3D%26fq%3D%26fq%3D%26wt%3Djson&wt=json} hits=5370 status=0 QTime=81
+2020-04-22 08:17:31.628 INFO  (qtp1305935114-26) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} hits=11199 status=0 QTime=8
+2020-04-22 08:17:31.628 INFO  (qtp1305935114-26) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} status=0 QTime=8
+2020-04-22 08:17:31.644 INFO  (qtp1305935114-24) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/select params={q=full_text:coronavirus+user.screen_name:coronavirus&q=q%3Dfull_text%253Acoronavirus%2520user.screen_name%253Acoronavirus%26start%3D10%26rows%3D10&start=10&fq=&fq=&fq=&rows=10&params=%26fq%3D%26fq%3D%26fq%3D%26wt%3Djson&wt=json} hits=5370 status=0 QTime=1
+2020-04-22 08:17:37.222 INFO  (qtp1305935114-19) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} hits=11199 status=0 QTime=7
+2020-04-22 08:17:37.223 INFO  (qtp1305935114-19) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} status=0 QTime=7
+2020-04-22 08:17:37.340 INFO  (qtp1305935114-25) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/mlt params={q=full_text:coronavirus+user.screen_name:coronavirus+id:1243839825087737856&q=q%3Dfull_text%253Acoronavirus%2520user.screen_name%253Acoronavirus%2520id:1243839825087737856%26start%3D0%26rows%3D10&start=0&fq=&fq=&fq=&rows=10&params=%26fq%3D%26fq%3D%26fq%3D%26wt%3Djson&wt=json} status=0 QTime=114
+2020-04-22 08:17:47.565 INFO  (qtp1305935114-27) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} hits=11199 status=0 QTime=6
+2020-04-22 08:17:47.565 INFO  (qtp1305935114-27) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} status=0 QTime=7
+2020-04-22 08:17:47.582 INFO  (qtp1305935114-26) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/mlt params={q=full_text:coronavirus+user.screen_name:coronavirus+id:1243839825087737856&q=q%3Dfull_text%253Acoronavirus%2520user.screen_name%253Acoronavirus%2520id:1243839825087737856%26start%3D10%26rows%3D10&start=10&fq=&fq=&fq=&rows=10&params=%26fq%3D%26fq%3D%26fq%3D%26wt%3Djson&wt=json} status=0 QTime=3
+2020-04-22 08:17:52.764 INFO  (qtp1305935114-19) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} hits=11199 status=0 QTime=6
+2020-04-22 08:17:52.764 INFO  (qtp1305935114-19) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} status=0 QTime=6
+2020-04-22 08:17:52.848 INFO  (qtp1305935114-24) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/select params={q=full_text:coronavirus+user.screen_name:coronavirus&q=q%3Dfull_text%253Acoronavirus%2520user.screen_name%253Acoronavirus%26start%3D0%26rows%3D10&start=0&sort=favorite_count+desc,retweeted_count+desc&fq=&fq=&fq=&rows=10&params=%26sort%3Dfavorite_count%2520desc,retweeted_count%2520desc%26fq%3D%26fq%3D%26fq%3D%26wt%3Djson&wt=json} hits=5370 status=0 QTime=68
+2020-04-22 08:18:08.864 INFO  (qtp1305935114-25) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} hits=11199 status=0 QTime=16
+2020-04-22 08:18:08.864 INFO  (qtp1305935114-25) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} status=0 QTime=16
+2020-04-22 08:18:09.902 INFO  (qtp1305935114-27) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/clustering params={q=full_text:coronavirus+user.screen_name:coronavirus&q=q%3Dfull_text%253Acoronavirus%2520user.screen_name%253Acoronavirus%26start%3D0%26rows%3D100&start=0&sort=favorite_count+desc,retweeted_count+desc&fq=&fq=&fq=&rows=100&params=%26sort%3Dfavorite_count%2520desc,retweeted_count%2520desc%26fq%3D%26fq%3D%26fq%3D%26wt%3Djson&wt=json} hits=5370 status=0 QTime=1033
+2020-04-22 08:18:54.528 INFO  (qtp1305935114-26) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} hits=11199 status=0 QTime=6
+2020-04-22 08:18:54.528 INFO  (qtp1305935114-26) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} status=0 QTime=6
+2020-04-22 08:18:57.787 INFO  (qtp1305935114-19) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/select params={q=full_text:coronavirus+user.screen_name:coronavirus&q=q%3Dfull_text%253Acoronavirus%2520user.screen_name%253Acoronavirus%26start%3D0%26rows%3D10&start=0&sort=favorite_count+desc,retweeted_count+desc&fq=&fq=full_text:Singapore+Singapore&fq=&rows=10&params=%26sort%3Dfavorite_count%2520desc,retweeted_count%2520desc%26fq%3D%26fq%3Dfull_text%253ASingapore%2520Singapore%26fq%3D%26wt%3Djson&wt=json} hits=15 status=0 QTime=57
+2020-04-22 08:19:25.084 INFO  (qtp1305935114-21) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} hits=11199 status=0 QTime=8
+2020-04-22 08:19:25.085 INFO  (qtp1305935114-21) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} status=0 QTime=8
+2020-04-22 08:19:25.130 INFO  (qtp1305935114-20) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/select params={q=full_text:coronavirus+user.screen_name:coronavirus&q=q%3Dfull_text%253Acoronavirus%2520user.screen_name%253Acoronavirus%26start%3D0%26rows%3D10&start=0&sort=favorite_count+desc,retweeted_count+desc&fq=&fq=&fq=polarity:negative&rows=10&params=%26sort%3Dfavorite_count%2520desc,retweeted_count%2520desc%26fq%3D%26fq%3D%26fq%3Dpolarity%253Anegative%26wt%3Djson&wt=json} hits=1299 status=0 QTime=41
+2020-04-22 08:19:41.748 INFO  (qtp1305935114-27) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} hits=11199 status=0 QTime=5
+2020-04-22 08:19:41.748 INFO  (qtp1305935114-27) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} status=0 QTime=5
+2020-04-22 08:19:41.764 INFO  (qtp1305935114-26) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/select params={q=full_text:coronavirus+user.screen_name:coronavirus&q=q%3Dfull_text%253Acoronavirus%2520user.screen_name%253Acoronavirus%26start%3D0%26rows%3D10&start=0&sort=favorite_count+desc,retweeted_count+desc&fq=&fq=&fq=polarity:positive&rows=10&params=%26sort%3Dfavorite_count%2520desc,retweeted_count%2520desc%26fq%3D%26fq%3D%26fq%3Dpolarity%253Apositive%26wt%3Djson&wt=json} hits=2865 status=0 QTime=3
+2020-04-22 08:19:55.000 INFO  (qtp1305935114-25) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} hits=11199 status=0 QTime=7
+2020-04-22 08:19:55.000 INFO  (qtp1305935114-25) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} status=0 QTime=7
+2020-04-22 08:19:55.007 INFO  (qtp1305935114-21) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/select params={q=full_text:coronavirus+user.screen_name:coronavirus&q=q%3Dfull_text%253Acoronavirus%2520user.screen_name%253Acoronavirus%26start%3D0%26rows%3D10&start=0&sort=favorite_count+desc,retweeted_count+desc&fq=&fq=&fq=polarity:neutural&rows=10&params=%26sort%3Dfavorite_count%2520desc,retweeted_count%2520desc%26fq%3D%26fq%3D%26fq%3Dpolarity%253Aneutural%26wt%3Djson&wt=json} hits=0 status=0 QTime=2
+2020-04-22 08:32:07.365 INFO  (qtp1305935114-45) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} hits=11199 status=0 QTime=4
+2020-04-22 08:32:07.366 INFO  (qtp1305935114-45) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} status=0 QTime=4
+2020-04-22 08:32:07.372 INFO  (qtp1305935114-27) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/select params={q=full_text:coronavirus+user.screen_name:coronavirus&q=q%3Dfull_text%253Acoronavirus%2520user.screen_name%253Acoronavirus%26start%3D0%26rows%3D10&start=0&fq=&fq=&fq=&rows=10&params=%26fq%3D%26fq%3D%26fq%3D%26wt%3Djson&wt=json} hits=5370 status=0 QTime=1
+2020-04-22 08:32:19.829 INFO  (qtp1305935114-26) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} hits=11199 status=0 QTime=4
+2020-04-22 08:32:19.830 INFO  (qtp1305935114-26) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} status=0 QTime=4
+2020-04-22 08:32:19.835 INFO  (qtp1305935114-25) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/select params={q=full_text:coronavirus+user.screen_name:coronavirus&q=q%3Dfull_text%253Acoronavirus%2520user.screen_name%253Acoronavirus%26start%3D10%26rows%3D10&start=10&fq=&fq=&fq=&rows=10&params=%26fq%3D%26fq%3D%26fq%3D%26wt%3Djson&wt=json} hits=5370 status=0 QTime=1
+2020-04-22 08:32:26.656 INFO  (qtp1305935114-46) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} hits=11199 status=0 QTime=5
+2020-04-22 08:32:26.656 INFO  (qtp1305935114-46) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} status=0 QTime=6
+2020-04-22 08:32:26.670 INFO  (qtp1305935114-27) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/select params={q=full_text:coronavirus+user.screen_name:coronavirus&q=q%3Dfull_text%253Acoronavirus%2520user.screen_name%253Acoronavirus%26start%3D0%26rows%3D10&start=0&sort=favorite_count+desc,retweeted_count+desc&fq=&fq=&fq=&rows=10&params=%26sort%3Dfavorite_count%2520desc,retweeted_count%2520desc%26fq%3D%26fq%3D%26fq%3D%26wt%3Djson&wt=json} hits=5370 status=0 QTime=1
+2020-04-22 08:32:39.926 INFO  (qtp1305935114-20) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} hits=11199 status=0 QTime=4
+2020-04-22 08:32:39.926 INFO  (qtp1305935114-20) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} status=0 QTime=5
+2020-04-22 08:32:40.015 INFO  (qtp1305935114-26) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/select params={q=full_text:coronavirus+user.screen_name:coronavirus&q=q%3Dfull_text%253Acoronavirus%2520user.screen_name%253Acoronavirus%26start%3D0%26rows%3D10&start=0&fq=created_at:[NOW-1MONTH+TO+NOW]&fq=&fq=&rows=10&params=%26fq%3Dcreated_at%253A[NOW-1MONTH%2520TO%2520NOW]%26fq%3D%26fq%3D%26wt%3Djson&wt=json} hits=4844 status=0 QTime=75
+2020-04-22 08:32:51.678 INFO  (qtp1305935114-25) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} hits=11199 status=0 QTime=4
+2020-04-22 08:32:51.678 INFO  (qtp1305935114-25) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} status=0 QTime=4
+2020-04-22 08:32:51.925 INFO  (qtp1305935114-27) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/clustering params={q=full_text:coronavirus+user.screen_name:coronavirus&q=q%3Dfull_text%253Acoronavirus%2520user.screen_name%253Acoronavirus%26start%3D0%26rows%3D100&start=0&fq=&fq=&fq=&rows=100&params=%26fq%3D%26fq%3D%26fq%3D%26wt%3Djson&wt=json} hits=5370 status=0 QTime=233
+2020-04-22 08:33:22.760 INFO  (qtp1305935114-20) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} hits=11199 status=0 QTime=4
+2020-04-22 08:33:22.760 INFO  (qtp1305935114-20) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} status=0 QTime=5
+2020-04-22 08:33:25.192 INFO  (qtp1305935114-46) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/select params={q=full_text:coronavirus+user.screen_name:coronavirus&q=q%3Dfull_text%253Acoronavirus%2520user.screen_name%253Acoronavirus%26start%3D0%26rows%3D10&start=0&fq=&fq=full_text:Singapore+Singapore&fq=&rows=10&params=%26fq%3D%26fq%3Dfull_text%253ASingapore%2520Singapore%26fq%3D%26wt%3Djson&wt=json} hits=15 status=0 QTime=2
+2020-04-22 08:33:38.999 INFO  (qtp1305935114-25) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} hits=11199 status=0 QTime=4
+2020-04-22 08:33:38.999 INFO  (qtp1305935114-25) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} status=0 QTime=4
+2020-04-22 08:33:40.698 ERROR (qtp1305935114-26) [   x:SearchCovid] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: no field name specified in query and no default specified via 'df' param
+	at org.apache.solr.parser.SolrQueryParserBase.checkNullField(SolrQueryParserBase.java:1005)
+	at org.apache.solr.parser.SolrQueryParserBase.getFieldQuery(SolrQueryParserBase.java:1059)
+	at org.apache.solr.parser.SolrQueryParserBase.handleBareTokenQuery(SolrQueryParserBase.java:825)
+	at org.apache.solr.parser.QueryParser.Term(QueryParser.java:421)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:278)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:222)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:131)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:263)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:49)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:174)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:208)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:302)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:211)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2596)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:802)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:579)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:420)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:352)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1596)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:545)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:590)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1607)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1297)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:485)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1577)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1212)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)
+	at org.eclipse.jetty.server.handler.InetAccessHandler.handle(InetAccessHandler.java:177)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:146)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:322)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:500)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:270)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:388)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+2020-04-22 08:33:40.698 INFO  (qtp1305935114-26) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/clustering params={q=full_text:coronavirus+user.screen_name:coronavirus&q=q%3Dfull_text%253Acoronavirus%2520user.screen_name%253Acoronavirus%26start%3D0%26rows%3D100&start=0&sort=favorite_count+desc,retweeted_count+desc&fq=&fq=full_text:Singapore+Singapore&fq=&rows=100&params=%26sort%3Dfavorite_count%2520desc,retweeted_count%2520desc%26fq%3D%26fq%3Dfull_text%253ASingapore%2520Singapore%26fq%3D%26wt%3Djson&wt=json} status=400 QTime=3
+2020-04-22 08:33:49.671 INFO  (qtp1305935114-20) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} hits=11199 status=0 QTime=3
+2020-04-22 08:33:49.671 INFO  (qtp1305935114-20) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} status=0 QTime=3
+2020-04-22 08:33:50.460 INFO  (qtp1305935114-46) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/select params={q=full_text:covid+user.screen_name:covid&q=q%3Dfull_text%253Acovid%2520user.screen_name%253Acovid%26start%3D0%26rows%3D10&start=0&sort=favorite_count+desc,retweeted_count+desc&fq=&fq=full_text:Singapore+Singapore&fq=&rows=10&params=%26sort%3Dfavorite_count%2520desc,retweeted_count%2520desc%26fq%3D%26fq%3Dfull_text%253ASingapore%2520Singapore%26fq%3D%26wt%3Djson&wt=json} hits=8 status=0 QTime=82
+2020-04-22 08:34:04.982 INFO  (qtp1305935114-25) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} hits=11199 status=0 QTime=3
+2020-04-22 08:34:04.982 INFO  (qtp1305935114-25) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} status=0 QTime=3
+2020-04-22 08:34:04.998 INFO  (qtp1305935114-26) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/select params={q=full_text:covid+user.screen_name:covid&q=q%3Dfull_text%253Acovid%2520user.screen_name%253Acovid%26start%3D0%26rows%3D10&start=0&sort=favorite_count+desc,retweeted_count+desc&fq=&fq=&fq=polarity:positive&rows=10&params=%26sort%3Dfavorite_count%2520desc,retweeted_count%2520desc%26fq%3D%26fq%3D%26fq%3Dpolarity%253Apositive%26wt%3Djson&wt=json} hits=1593 status=0 QTime=2
+2020-04-22 08:34:16.838 INFO  (qtp1305935114-20) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} hits=11199 status=0 QTime=3
+2020-04-22 08:34:16.838 INFO  (qtp1305935114-20) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} status=0 QTime=3
+2020-04-22 08:34:16.845 INFO  (qtp1305935114-27) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/select params={q=full_text:covid+user.screen_name:covid&q=q%3Dfull_text%253Acovid%2520user.screen_name%253Acovid%26start%3D0%26rows%3D10&start=0&sort=favorite_count+desc,retweeted_count+desc&fq=&fq=&fq=polarity:negative&rows=10&params=%26sort%3Dfavorite_count%2520desc,retweeted_count%2520desc%26fq%3D%26fq%3D%26fq%3Dpolarity%253Anegative%26wt%3Djson&wt=json} hits=679 status=0 QTime=2
+2020-04-22 08:34:34.765 INFO  (qtp1305935114-46) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} hits=11199 status=0 QTime=3
+2020-04-22 08:34:34.766 INFO  (qtp1305935114-46) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} status=0 QTime=3
+2020-04-22 08:34:34.773 INFO  (qtp1305935114-26) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/select params={q=full_text:covid+user.screen_name:covid&q=q%3Dfull_text%253Acovid%2520user.screen_name%253Acovid%26start%3D0%26rows%3D10&start=0&sort=favorite_count+desc,retweeted_count+desc&fq=&fq=&fq=polarity:neutural&rows=10&params=%26sort%3Dfavorite_count%2520desc,retweeted_count%2520desc%26fq%3D%26fq%3D%26fq%3Dpolarity%253Aneutural%26wt%3Djson&wt=json} hits=0 status=0 QTime=3
+2020-04-22 08:36:50.194 INFO  (qtp1305935114-47) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} hits=11199 status=0 QTime=3
+2020-04-22 08:36:50.194 INFO  (qtp1305935114-47) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} status=0 QTime=3
+2020-04-22 08:36:50.208 ERROR (qtp1305935114-27) [   x:SearchCovid] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: org.apache.solr.search.SyntaxError: Cannot parse 'full_text: user.screen_name:': Encountered " ":" ": "" at line 1, column 27.
+Was expecting one of:
+    <EOF> 
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:219)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:302)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:211)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2596)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:802)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:579)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:420)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:352)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1596)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:545)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:590)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1607)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1297)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:485)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1577)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1212)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)
+	at org.eclipse.jetty.server.handler.InetAccessHandler.handle(InetAccessHandler.java:177)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:146)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:322)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:500)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:270)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:388)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: org.apache.solr.search.SyntaxError: Cannot parse 'full_text: user.screen_name:': Encountered " ":" ": "" at line 1, column 27.
+Was expecting one of:
+    <EOF> 
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:267)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:49)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:174)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:161)
+	... 44 more
+Caused by: org.apache.solr.parser.ParseException: Encountered " ":" ": "" at line 1, column 27.
+Was expecting one of:
+    <EOF> 
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.QueryParser.generateParseException(QueryParser.java:885)
+	at org.apache.solr.parser.QueryParser.jj_consume_token(QueryParser.java:767)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:132)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:263)
+	... 47 more
+
+2020-04-22 08:36:50.209 INFO  (qtp1305935114-27) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/select params={q=full_text:+user.screen_name:&q=q%3Dfull_text%253A%2520user.screen_name%253A%26start%3D0%26rows%3D10&start=0&fq=&fq=&fq=&rows=10&params=%26fq%3D%26fq%3D%26fq%3D%26wt%3Djson&wt=json} status=400 QTime=1
+2020-04-22 08:36:59.853 INFO  (qtp1305935114-46) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} hits=11199 status=0 QTime=4
+2020-04-22 08:36:59.853 INFO  (qtp1305935114-46) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} status=0 QTime=4
+2020-04-22 08:36:59.867 INFO  (qtp1305935114-26) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/select params={q=full_text:coronavirus+user.screen_name:coronavirus&q=q%3Dfull_text%253Acoronavirus%2520user.screen_name%253Acoronavirus%26start%3D0%26rows%3D10&start=0&fq=&fq=&fq=&rows=10&params=%26fq%3D%26fq%3D%26fq%3D%26wt%3Djson&wt=json} hits=5370 status=0 QTime=1
+2020-04-22 08:37:08.461 INFO  (qtp1305935114-47) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} hits=11199 status=0 QTime=5
+2020-04-22 08:37:08.461 INFO  (qtp1305935114-47) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} status=0 QTime=5
+2020-04-22 08:37:08.467 INFO  (qtp1305935114-44) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/select params={q=full_text:coronavirus+user.screen_name:coronavirus&q=q%3Dfull_text%253Acoronavirus%2520user.screen_name%253Acoronavirus%26start%3D10%26rows%3D10&start=10&fq=&fq=&fq=&rows=10&params=%26fq%3D%26fq%3D%26fq%3D%26wt%3Djson&wt=json} hits=5370 status=0 QTime=2
+2020-04-22 08:37:13.953 INFO  (qtp1305935114-27) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} hits=11199 status=0 QTime=4
+2020-04-22 08:37:13.953 INFO  (qtp1305935114-27) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} status=0 QTime=4
+2020-04-22 08:37:13.958 INFO  (qtp1305935114-46) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/select params={q=full_text:coronavirus+user.screen_name:coronavirus&q=q%3Dfull_text%253Acoronavirus%2520user.screen_name%253Acoronavirus%26start%3D0%26rows%3D10&start=0&sort=favorite_count+desc,retweeted_count+desc&fq=&fq=&fq=&rows=10&params=%26sort%3Dfavorite_count%2520desc,retweeted_count%2520desc%26fq%3D%26fq%3D%26fq%3D%26wt%3Djson&wt=json} hits=5370 status=0 QTime=1
+2020-04-22 08:37:23.422 INFO  (qtp1305935114-26) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} hits=11199 status=0 QTime=6
+2020-04-22 08:37:23.422 INFO  (qtp1305935114-26) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} status=0 QTime=6
+2020-04-22 08:37:23.440 INFO  (qtp1305935114-47) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/select params={q=full_text:coronavirus+user.screen_name:coronavirus&q=q%3Dfull_text%253Acoronavirus%2520user.screen_name%253Acoronavirus%26start%3D0%26rows%3D10&start=0&fq=created_at:[NOW-1MONTH+TO+NOW]&fq=&fq=&rows=10&params=%26fq%3Dcreated_at%253A[NOW-1MONTH%2520TO%2520NOW]%26fq%3D%26fq%3D%26wt%3Djson&wt=json} hits=4844 status=0 QTime=4
+2020-04-22 08:37:35.712 INFO  (qtp1305935114-44) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} hits=11199 status=0 QTime=2
+2020-04-22 08:37:35.712 INFO  (qtp1305935114-44) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} status=0 QTime=3
+2020-04-22 08:37:35.857 INFO  (qtp1305935114-27) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/clustering params={q=full_text:coronavirus+user.screen_name:coronavirus&q=q%3Dfull_text%253Acoronavirus%2520user.screen_name%253Acoronavirus%26start%3D0%26rows%3D100&start=0&fq=&fq=&fq=&rows=100&params=%26fq%3D%26fq%3D%26fq%3D%26wt%3Djson&wt=json} hits=5370 status=0 QTime=131
+2020-04-22 08:37:56.930 INFO  (qtp1305935114-26) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} hits=11199 status=0 QTime=3
+2020-04-22 08:37:56.930 INFO  (qtp1305935114-26) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} status=0 QTime=3
+2020-04-22 08:37:57.619 INFO  (qtp1305935114-46) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/select params={q=full_text:coronavirus+user.screen_name:coronavirus&q=q%3Dfull_text%253Acoronavirus%2520user.screen_name%253Acoronavirus%26start%3D0%26rows%3D10&start=0&fq=&fq=full_text:Singapore+Singapore&fq=&rows=10&params=%26fq%3D%26fq%3Dfull_text%253ASingapore%2520Singapore%26fq%3D%26wt%3Djson&wt=json} hits=15 status=0 QTime=1
+2020-04-22 08:38:11.446 INFO  (qtp1305935114-44) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} hits=11199 status=0 QTime=5
+2020-04-22 08:38:11.446 INFO  (qtp1305935114-44) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} status=0 QTime=5
+2020-04-22 08:38:11.460 INFO  (qtp1305935114-47) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/select params={q=full_text:coronavirus+user.screen_name:coronavirus&q=q%3Dfull_text%253Acoronavirus%2520user.screen_name%253Acoronavirus%26start%3D0%26rows%3D10&start=0&sort=favorite_count+desc,retweeted_count+desc&fq=&fq=&fq=polarity:positive&rows=10&params=%26sort%3Dfavorite_count%2520desc,retweeted_count%2520desc%26fq%3D%26fq%3D%26fq%3Dpolarity%253Apositive%26wt%3Djson&wt=json} hits=2865 status=0 QTime=1
+2020-04-22 08:38:25.010 INFO  (qtp1305935114-27) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} hits=11199 status=0 QTime=4
+2020-04-22 08:38:25.010 INFO  (qtp1305935114-27) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} status=0 QTime=4
+2020-04-22 08:38:25.025 INFO  (qtp1305935114-26) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/select params={q=full_text:coronavirus+user.screen_name:coronavirus&q=q%3Dfull_text%253Acoronavirus%2520user.screen_name%253Acoronavirus%26start%3D0%26rows%3D10&start=0&sort=favorite_count+desc,retweeted_count+desc&fq=&fq=&fq=polarity:negative&rows=10&params=%26sort%3Dfavorite_count%2520desc,retweeted_count%2520desc%26fq%3D%26fq%3D%26fq%3Dpolarity%253Anegative%26wt%3Djson&wt=json} hits=1299 status=0 QTime=1
+2020-04-22 08:38:40.008 INFO  (qtp1305935114-44) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} hits=11199 status=0 QTime=6
+2020-04-22 08:38:40.008 INFO  (qtp1305935114-44) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} status=0 QTime=6
+2020-04-22 08:38:40.022 INFO  (qtp1305935114-46) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/select params={q=full_text:coronavirus+user.screen_name:coronavirus&q=q%3Dfull_text%253Acoronavirus%2520user.screen_name%253Acoronavirus%26start%3D0%26rows%3D10&start=0&sort=favorite_count+desc,retweeted_count+desc&fq=&fq=&fq=polarity:neutural&rows=10&params=%26sort%3Dfavorite_count%2520desc,retweeted_count%2520desc%26fq%3D%26fq%3D%26fq%3Dpolarity%253Aneutural%26wt%3Djson&wt=json} hits=0 status=0 QTime=0
+2020-04-22 08:38:50.296 INFO  (qtp1305935114-47) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} hits=11199 status=0 QTime=6
+2020-04-22 08:38:50.296 INFO  (qtp1305935114-47) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} status=0 QTime=6
+2020-04-22 08:38:50.313 INFO  (qtp1305935114-27) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/select params={q=full_text:covid+user.screen_name:covid&q=q%3Dfull_text%253Acovid%2520user.screen_name%253Acovid%26start%3D0%26rows%3D10&start=0&sort=favorite_count+desc,retweeted_count+desc&fq=&fq=&fq=&rows=10&params=%26sort%3Dfavorite_count%2520desc,retweeted_count%2520desc%26fq%3D%26fq%3D%26fq%3D%26wt%3Djson&wt=json} hits=3120 status=0 QTime=3
+2020-04-22 08:38:56.865 INFO  (qtp1305935114-44) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} hits=11199 status=0 QTime=4
+2020-04-22 08:38:56.865 INFO  (qtp1305935114-44) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} status=0 QTime=4
+2020-04-22 08:38:56.962 INFO  (qtp1305935114-46) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/mlt params={q=full_text:covid+user.screen_name:covid+id:1243705895621664771&q=q%3Dfull_text%253Acovid%2520user.screen_name%253Acovid%2520id:1243705895621664771%26start%3D0%26rows%3D10&start=0&sort=favorite_count+desc,retweeted_count+desc&fq=&fq=&fq=&rows=10&params=%26sort%3Dfavorite_count%2520desc,retweeted_count%2520desc%26fq%3D%26fq%3D%26fq%3D%26wt%3Djson&wt=json} status=0 QTime=83
+2020-04-22 08:39:05.411 INFO  (qtp1305935114-47) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} hits=11199 status=0 QTime=3
+2020-04-22 08:39:05.411 INFO  (qtp1305935114-47) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/admin/ping params={} status=0 QTime=4
+2020-04-22 08:39:05.463 INFO  (qtp1305935114-25) [   x:SearchCovid] o.a.s.c.S.Request [SearchCovid]  webapp=/solr path=/mlt params={q=full_text:covid+user.screen_name:covid+id:1243106035704963074&q=q%3Dfull_text%253Acovid%2520user.screen_name%253Acovid%2520id:1243106035704963074%26start%3D0%26rows%3D10&start=0&sort=favorite_count+desc,retweeted_count+desc&fq=&fq=&fq=&rows=10&params=%26sort%3Dfavorite_count%2520desc,retweeted_count%2520desc%26fq%3D%26fq%3D%26fq%3D%26wt%3Djson&wt=json} status=0 QTime=48
+2020-04-22 09:14:00.794 INFO  (ShutdownMonitor) [   ] o.e.j.s.AbstractConnector Stopped ServerConnector@64b73e7a{HTTP/1.1,[http/1.1, h2c]}{0.0.0.0:8983}
+2020-04-22 09:14:00.794 INFO  (ShutdownMonitor) [   ] o.e.j.s.session node0 Stopped scavenging
+2020-04-22 09:14:00.799 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=604060129
+2020-04-22 09:14:00.801 INFO  (coreCloseExecutor-15-thread-1) [   x:SearchCovid] o.a.s.c.SolrCore [SearchCovid]  CLOSING SolrCore org.apache.solr.core.SolrCore@4b4021f6
+2020-04-22 09:14:00.801 INFO  (coreCloseExecutor-15-thread-1) [   x:SearchCovid] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.SearchCovid, tag=SolrCore@4b4021f6
+2020-04-22 09:14:00.801 INFO  (coreCloseExecutor-15-thread-1) [   x:SearchCovid] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@42a926ea: rootName = null, domain = solr.core.SearchCovid, service url = null, agent id = null] for registry solr.core.SearchCovid / com.codahale.metrics.MetricRegistry@5b48d6b
+2020-04-22 09:14:00.824 INFO  (coreCloseExecutor-15-thread-1) [   x:SearchCovid] o.a.s.u.DirectUpdateHandler2 Committing on IndexWriter.close()  ... SKIPPED (unnecessary).
+2020-04-22 09:14:00.840 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.node, tag=null
+2020-04-22 09:14:00.840 INFO  (ShutdownMonitor) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@dc4a691: rootName = null, domain = solr.node, service url = null, agent id = null] for registry solr.node / com.codahale.metrics.MetricRegistry@5e2f7941
+2020-04-22 09:14:00.843 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jvm, tag=null
+2020-04-22 09:14:00.843 INFO  (ShutdownMonitor) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@3a082ff4: rootName = null, domain = solr.jvm, service url = null, agent id = null] for registry solr.jvm / com.codahale.metrics.MetricRegistry@5dafb7d7
+2020-04-22 09:14:00.844 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jetty, tag=null
+2020-04-22 09:14:00.844 INFO  (ShutdownMonitor) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@45acdd11: rootName = null, domain = solr.jetty, service url = null, agent id = null] for registry solr.jetty / com.codahale.metrics.MetricRegistry@730656bb
+2020-04-22 09:14:00.889 INFO  (ShutdownMonitor) [   ] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@1f2f9244{/solr,null,UNAVAILABLE}{V:\Solr+Lucene\Solr\solr-8.5.0\solr-8.5.0\server/solr-webapp/webapp}
